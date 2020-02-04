@@ -14,39 +14,46 @@
     <script type="text/javascript" src="./js/selection.js"></script>
     <script type="text/javascript" src="./js/insertion.js"></script>
     <script type="text/javascript" src="./js/quick.js"></script>
+
+    <link rel="cloud icon" href="./images/apple.png" type="image/x-icon">
     
 </head>
 
+
 <body>
+       
         
         <nav>
-            <div class="toggle">
+            <div class="ber">
                 <div class="menu">&#9776;</div>
             </div>          
             <ul>
+                <a><img src="./images/apple.png"alt="apple"></a>
                 <a href="#home"><li>Home</li></a>                         
                 <a href="#section1"><li>Bubble</li></a>       
                 <a href="#section2"><li>Merge</li></a>       
                 <a href="#section3"><li>Selection</li></a>       
                 <a href="#section4"><li>Insertion</li></a>       
-                <a href="#section5"><li>Quick</li></a>       
+                <a href="#section5"><li>Quick</li></a>  
+               
             </ul> 
               
-            
+
           </nav>
 
-    <!--  Follow this structure for your section-->
+
     <section id="home">
         <div class="content">
-            <!-- your content -->
-            <h4>Tisha</h4>            
-            <p class="center"><img class="mate" src="./images/cat.png" alt="ticha"></p> 
+        
+            <h1>Tisha</h1>            
+       <!--     <p class="center"><img class="mate" src="./images/cat.png" alt="ticha"></p> -->
         </div>         
     </section> 
-
+   
+    
     <section id="section1">
         <div class="content">            
-            <h4>Bubble Sort</h4> 
+            <h1>Bubble Sort</h1> 
             <div class="form">
                
             </div>                              
@@ -54,7 +61,7 @@
 
     <section id="section2">
         <div class="content">   
-            <h4>Merge Sort</h4>  
+            <h1>Merge Sort</h1>  
           
             <div class="form">               
                   
@@ -64,7 +71,7 @@
 
     <section id="section3">
         <div class="content">       
-            <h4>Selection Sort</h4> 
+            <h1>Selection Sort</h1> 
             <div class="form">
                 
             </div>  
@@ -72,25 +79,36 @@
     </section>
 
     <section id="section4">
-        <div class="content">       
-            <h4>Insertion Sort</h4>  
+        <div class="content">  
+                <div class="content2">  
+            <h1>Insertion Sort</h1>  
             <div class="form">               
                 
             </div>
-        </div>         
+        </div>      
+    </div>   
     </section>
 
     <section id="section5">
         <div class="content">       
-            <h4>Quick Sort</h4> 
+            <h1>Quick Sort</h1> 
             <div class="form">
-                
+     <p class="leftside">Input : <input type="number" id="inputValue"/>
+       <button id="clear" onClick="clearValue()">Clear</button>
+       <button id="add" onClick="addValue()">Add</button>
+         <button id="sort" onClick="executeQuickSort()">Sort</button>
+        </p>
+      <br>
+      <br>
+      <p class="leftside">Data : <p1 id="preResult"></p1></p>
+      <br>
+      <p class="leftside">Result : <p1 id="result"></p1></p>
+      <br>
+             
             </div>
         </div>         
     </section>
 
-
-    <footer>Copyright @2020 Tisha. All rights reserved.</footer>
 </body>
 
 </html>

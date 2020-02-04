@@ -1,56 +1,49 @@
 
 * {
     margin: 0px;
+   
   }
-  
-html, body, .container{
-  width: 100%;
-  height: 100%;
-  min-width: 500px;
-  min-height: 500px;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: auto;
-  /* background: linear-gradient(141deg, yellow 0%, blue 51%, rgb(165, 194, 119)); */
-}
+ 
 
-  nav{
+
+nav{
     width: 100%;  
-    background:#02020223;
     position: fixed;
     z-index: 1000;
-    height: 10%;
-    text-align:center;
-}    
-
+    height: 8%;
+    background: #4F6CB8;
+    padding: 10px 20px;
+  }
 
 ul a {
   position: relative;
   list-style: none;
   display: inline-block;
   width: 180px;
-  cursor: pointer;
-  margin-top: 30px;
+  margin-top: 15px;
+ text-decoration: none;
+ color: white;
+ font-family: Roboto;
+
 
 }
 
 
 ul a :hover{    
-    color: #1cff03;
-    text-shadow: rgb(194, 210, 20) 0.1em 0.05em 0.2em;
+    color: #7e00a0;
     font-weight: 1000;   
-    background-color:rgba(33, 164, 155, 0.194);
-    border-radius: 20px;  
+  
 }
-ul a li{
-    color: #ffffff;
+ul{
+    color: white;
     text-decoration: none;
-    position: fixed;
+    position: relative;
     z-index: 1000; 
-    font-size: larger;   
+    font-size: 25px;
+    padding-right: 100px;
 }
 
-.toggle{
+.ber{
     width: 100%;
     padding: 10px 20px;  
     text-align: right;
@@ -58,7 +51,6 @@ ul a li{
     color: #fff;
     font-size: 30px;
     display: none;
-    cursor: pointer;
 }
 
 section{
@@ -68,75 +60,82 @@ section{
   background-size: cover;
 }
 
-.team1{
-  display: block;
-  max-width: 80%;
-  max-height: 50%;
-  height: 60vh;
 
-}
-.team2{
-  display: none;
-}
 
-div.content{
- 
-  top: 53%;
+/*div.content{
+  top: 55%;
   left: 50%;
   width: 50%;
   height: 70%;     
   position: absolute;    
   transform: translate(-50%, -50%);   
-  background-color:rgb(235, 238, 175);
-  border-radius: 5%; 
-  opacity: 0.85;
-  -webkit-box-shadow: 4px -1px 10px 4px rgba(27,46,43,1); /*Chrome*/
-  -moz-box-shadow: 4px -1px 10px 4px rgba(27,46,43,1); /* Firefox*/
-  box-shadow: 4px -1px 10px 4px rgb(27, 46, 43);
+  background-color:white;
   padding: 2%;
-}
-/* Titles */
-h4{
-  text-align: center;
-  font: bold 2em "Courier New";
-  color: #ffffff;
-  padding-left: 50% auto;
-  padding: 1.7% 2%;
-  text-shadow: rgb(12, 20, 136) 0.1em 0.05em 0.2em;
-}
+
+}*/
 
 
-footer{
-  position: relative;
-  width: 100%;       
-  bottom: 4%;
-  font: bold 1em "Courier New";
-  color: #fff;
-  text-align: center;   
-  text-shadow: rgb(12, 20, 136) 0.1em 0.05em 0.2em;
+
+
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: auto;
+    font-size: 46px;
 }
 
-.mate {
+
+/*.mate {
   max-width: 65%;
   max-height: 50%;
   display: block;
   margin-left: 18%;
-}
-#section1{
-  background: red;
-}
+}*/
+
 #home {
-  background: blue;
+  background: green;
 }
+
+#section1{
+  background: #F6BD60;
+}
+
 #section2{
-  background:yellow;
+  background: #F7EDE2;
 }
 #section3{
-  background:green;
+  background: #F5CAC3;
 }
 #section4{
-  background:white;
+  background: #84A59D;
 }
 #section5{
-  background:black;
+  background:   #F28482;
+
+}
+
+
+h1{
+  text-align: center;
+  color: black;
+  padding: 8%;
+}
+img{
+  height: 90px;
+  width: 90px;
+  overflow: hidden;
+  position: absolute;
+  left: 25px;
+  top: -53px;
+}
+
+.leftside{
+  position: relative;
+  left: 100px;
+}
+.figure {
+  position: relative;
+  right: 100px;
 }
