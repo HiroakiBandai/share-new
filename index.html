@@ -28,7 +28,7 @@
                 <div class="menu">&#9776;</div>
             </div>          
             <ul>
-                <a><img src="./images/apple.png"alt="apple"></a>
+                <a href="#home"><img class="logo" src="./images/apple.png"  alt="apple"></a>
                 <a href="#home"><li>Home</li></a>                         
                 <a href="#section1"><li>Bubble</li></a>       
                 <a href="#section2"><li>Merge</li></a>       
@@ -43,11 +43,18 @@
 
 
     <section id="home">
-        <div class="content">
+        <div class="content1">
         
             <h1>Tisha</h1>            
        <!--     <p class="center"><img class="mate" src="./images/cat.png" alt="ticha"></p> -->
-        </div>         
+       <img class="wrapp" src="./images/hand.png" alt="">
+       <img class="wrapp1" src="./images/bubble.png" alt="">
+
+        </div>     
+            <div class="content2">
+                    <img class="wrapp2" src="./images/puzzle.png" alt="">
+                    <img class="wrapp3" src="./images/block.png" alt="">
+                </div>
     </section> 
    
     
@@ -90,23 +97,35 @@
     </section>
 
     <section id="section5">
-        <div class="content">       
+        
+        <div class="container5">
             <h1>Quick Sort</h1> 
-            <div class="form">
-     <p class="leftside">Input : <input type="number" id="inputValue"/>
-       <button id="clear" onClick="clearValue()">Clear</button>
-       <button id="add" onClick="addValue()">Add</button>
+            <div class="flow_chart5">
+                    <img class="flow_chart5" src="images/Quick sort.jpg" alt="Quicksort picture">
+                </div>
+            <div class="container5_1">
+        <div class="form5">
+        <div class="wrapper-btn1">
+       <input type="number" id="inputValue"/>
+        </div>
+         <div class="wrapper-btn2">
+         <button id="clear" onClick="clearValue()">Clear</button>
+         <button id="add" onClick="addValue()">Add</button>
          <button id="sort" onClick="executeQuickSort()">Sort</button>
-        </p>
-      <br>
-      <br>
-      <p class="leftside">Data : <p1 id="preResult"></p1></p>
-      <br>
-      <p class="leftside">Result : <p1 id="result"></p1></p>
-      <br>
-             
-            </div>
-        </div>         
+         </div>
+         </div>
+                
+
+         <div class="wrapper-btn3">
+                Data : <div id="preResult"></div>
+                Result : <div id="result"></div>
+                  
+        </div>
+    </div>
+</div>
+         
+       
+     
     </section>
 
 </body>

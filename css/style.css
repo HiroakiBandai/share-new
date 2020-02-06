@@ -13,6 +13,7 @@ nav{
     height: 8%;
     background: #4F6CB8;
     padding: 10px 20px;
+    margin: 0%;
   }
 
 ul a {
@@ -120,9 +121,10 @@ html, body, .container {
 h1{
   text-align: center;
   color: black;
-  padding: 8%;
+  padding: 10% 0 0 0;
+  
 }
-img{
+.logo{
   height: 90px;
   width: 90px;
   overflow: hidden;
@@ -131,11 +133,124 @@ img{
   top: -53px;
 }
 
-.leftside{
+/*.leftside{
   position: relative;
-  left: 100px;
-}
-.figure {
+  left: 18%;
+  top: 250px;
+}*/
+/*.figure {
   position: relative;
   right: 100px;
+}*/
+
+.wrapp {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+  position: relative;
+  bottom: 160px;
+  height: 450px;
+  width: 350px;
 }
+.wrapp1 {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+  position: relative;
+  bottom: 160px;
+  height: 355px;
+  width: 350px;
+}
+
+
+
+
+.container5_1{
+  display: flex;
+  flex-direction: row;
+
+}
+.wrapper-btn1{
+  position: relative;
+  left: 350px;
+  bottom: 234px
+}
+
+.flow_chart5{
+  position: relative;
+  left: 32%;
+  height: 70%;
+top: 58px;
+  
+}
+
+.wrapper-btn2{
+  position: relative;
+  left: 500px;
+  bottom: 290px;
+}
+.wrapper-btn3{
+  position: relative;
+  left: 210px;
+  line-height: 2;
+  bottom: 144px;
+}
+.wrapp2{
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+  position: relative;
+  bottom: 950px;
+  height: 450px;
+  width: 355px;
+  left: 75.7%;
+}
+.wrapp3{
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+  position: relative;
+  bottom: 959px;
+  height: 355px;
+  width: 350px;
+  left: 76%;
+}
+@media(width: 1024px){
+
+
+.flow_chart5{
+  position: relative;
+  display: flex;
+  left: 26%;
+  top: 153px;
+  width: 300px;
+  
+}
+.wrapper-btn3{
+  position: relative;
+    left: 210px;
+    bottom: 165px;
+    
+}
+
+.nav {
+  width: 82.8%;
+  position: fixed;
+  z-index: 1000;
+  height: 5%;
+  background: #4F6CB8;
+  padding: 10px 20px;
+  margin: 0%;
+}
+
+.ul{
+  color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 1000;
+    font-size: 20px;
+    padding-right: 100px;
+    display: flex;
+}
+}
+
